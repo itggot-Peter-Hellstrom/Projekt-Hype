@@ -1,0 +1,65 @@
+body {
+	background-color: #035d78;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: auto;
+	width: 1000px;
+	height: 2000px;
+}
+.page {
+	display: flex;
+	flex-direction: column;
+
+}
+.selected {
+	font-weight: bold;
+	background-color: #1ca0af;
+	border-style: inset;
+
+}
+article {
+	flex-grow: 1;
+}
+
+a {
+margin: 40px;
+background-color:#28cbde;
+padding: 5px;
+font-family: sans-serif;
+
+
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+header {
+height: 243px;
+width: 1000px;
+}
+
+nav {
+margin-top: 10px;
+font-size: 20px;
+
+
+
+}
