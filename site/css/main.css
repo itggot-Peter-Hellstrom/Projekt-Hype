@@ -1,7 +1,8 @@
 body {
-	background-color: #035d78;
+	background-color: #021422;
 	padding: 0;
 	margin: 0;
+	font-family: sans-serif;
 }
 
 .main {
@@ -18,12 +19,13 @@ body {
 	flex-direction: row;
 }
 .page {
-	background-color: #1ca0af;
+	background-color: #086682;
 	display: flex;
 	flex-direction: column;
-	width: 80%;
 	margin: auto;
-	margin-top: 10px;
+	width: 95%;
+	margin-top: 0px;
+	margin-bottom: 0;
 }
 article {
 	text-align: left;
@@ -43,7 +45,6 @@ a {
 	margin: 0;
 	background-color: #0a849b;
 	padding: 5px;
-	font-family: sans-serif;
 	color: black;
 	flex-grow: 1;
 }
@@ -74,6 +75,7 @@ header {
 
 nav {
 	margin-top: 10px;
+	margin-bottom: 0;
 	font-size: 20px;
 	display: flex;
 	background-color: #002b38;
