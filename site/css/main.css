@@ -26,22 +26,22 @@ article {
 	text-align: left;
 }
 .selected {
-	background-color: #1ca0af;
-	border-color: black;
+	border-color: #020b12;
 
 }
 article {
 	flex-grow: 1;
+	padding: 20px;
 }
 
 a {
-	margin: 40px;
-	background-color:#28cbde;
+	margin: 0;
+	background-color: #035d78;
 	padding: 5px;
 	font-family: sans-serif;
 	color: black;
 	border-style: solid;
-	border-color: #28cbde;
+	border-color: #035d78;
 }
 
 a:link {
@@ -54,11 +54,11 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 header {
@@ -69,4 +69,10 @@ header {
 nav {
 	margin-top: 10px;
 	font-size: 20px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #002b38;
+	padding: 0;
+	margin: 0;
+	padding: 5px;
 }
