@@ -26,12 +26,11 @@ article {
 }
 
 a {
-margin: 40px;
-background-color:#28cbde;
-padding: 5px;
-font-family: sans-serif;
-
-
+	margin: 40px;
+	background-color:#28cbde;
+	padding: 5px;
+	font-family: sans-serif;
+	color: black;
 }
 
 a:link {
@@ -52,14 +51,11 @@ a:active {
 }
 
 header {
-height: 243px;
-width: 1000px;
+	height: 243px;
+	width: 1000px;
 }
 
 nav {
-margin-top: 10px;
-font-size: 20px;
-
-
-
+	margin-top: 10px;
+	font-size: 20px;
 }
