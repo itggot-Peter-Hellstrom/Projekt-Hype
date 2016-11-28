@@ -19,8 +19,16 @@ body {
 	flex-direction: row;
 }
 figure {
+	color: white;
 	margin: 0;
 	padding: 0;
+	
+	background-color: #02445e;
+	padding: 10px;
+}
+figcaption {
+	text-align: right;
+	font-style: italic;
 }
 .shadow, .page {
 	margin-left: auto;
@@ -31,11 +39,12 @@ figure {
 .page {
 	display: flex;
 	flex-direction: column;
+	padding-bottom: 50px;
 	
 }
 article {
 	text-align: justify;
-	width: 551px;
+	width: 571px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0;
@@ -43,7 +52,9 @@ article {
 	margin-top: 20px;
 }
 h1 {
+	font-family: 'Oswald';
 	font-size: 30px;
+
 }
 .selected {
 	background-color: #12a3b4;
