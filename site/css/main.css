@@ -48,8 +48,10 @@ article {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 20px;
+	padding-top: 0px;
 	flex-grow: 1;
 	margin-top: 20px;
+
 }
 h1 {
 	font-family: 'Oswald';
