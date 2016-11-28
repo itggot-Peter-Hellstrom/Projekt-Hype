@@ -15,8 +15,14 @@ body {
 	width: 1000px;
 	height: 2000px;
 }
-#page_usage {
+.page, .page_row {
 	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+	margin-top: -2px;
+
+}
+.page_row {
 	flex-direction: row;
 }
 figure {
@@ -31,7 +37,7 @@ figcaption {
 	text-align: right;
 	font-style: italic;
 }
-.shadow, .page {
+.shadow, .page, .page_row {
 	margin-left: auto;
 	margin-right: auto;
 	width: 95%;
@@ -42,13 +48,10 @@ figcaption {
 .shadow {
 	z-index: 1;
 }
-.page {
-	display: flex;
-	flex-direction: column;
-	padding-bottom: 50px;
-	margin-top: -2px;
-
+img {
+	width: 100%;
 }
+
 article {
 	text-align: justify;
 	width: 571px;
@@ -99,7 +102,12 @@ a:hover, .selected {
     background-color: #12a3b4;
     transform: scale(1.1);
 }
-
+a:hover {
+	z-index: 4;
+}
+.selected {
+	z-index: 5;
+}
 a:active {
     text-decoration: none;
 }
