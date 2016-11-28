@@ -18,28 +18,39 @@ body {
 	display: flex;
 	flex-direction: row;
 }
-.page {
+figure {
+	margin: 0;
+	padding: 0;
+}
+.shadow, .page {
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
 	background-color: #086682;
+}
+.page {
 	display: flex;
 	flex-direction: column;
-	margin: auto;
-	width: 95%;
-	margin-top: 0px;
-	margin-bottom: 0;
+	
 }
 article {
-	text-align: left;
+	text-align: justify;
+	width: 551px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0;
+	flex-grow: 1;
+	margin-top: 20px;
+}
+h1 {
+	font-size: 30px;
 }
 .selected {
 	background-color: #12a3b4;
 
 
 }
-article {
-	flex-grow: 1;
-	padding: 20px;
 
-}
 
 a {
 	margin: 0;
