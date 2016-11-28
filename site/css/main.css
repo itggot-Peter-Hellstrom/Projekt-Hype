@@ -6,6 +6,7 @@ body {
 	color: #212121;
 }
 
+
 .main {
 	display: flex;
 	flex-direction: column;
@@ -15,12 +16,30 @@ body {
 	width: 1000px;
 	height: 2000px;
 }
+
+nav {
+	margin-top: 0px;
+	margin-bottom: 0;
+	font-size: 20px;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	padding: 0px;
+	font-weight: bold;
+	height: 60px;
+	align-items: center;
+	z-index: 2;
+}
+
 .page, .page_row {
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 50px;
-	margin-top: -2px;
+	align-items: center;
 
+}
+.left {
+	margin-left: 20px;
 }
 .page_row {
 	flex-direction: row;
@@ -53,11 +72,12 @@ img {
 }
 
 article {
+	display: flex;
+	flex-direction: column;
 	text-align: justify;
 	width: 571px;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 20px;
+	padding: 0px;
+	margin-right: 20px;
 	padding-top: 0px;
 	flex-grow: 1;
 	margin-top: 20px;
@@ -66,7 +86,8 @@ article {
 h1 {
 	font-family: 'Oswald';
 	font-size: 30px;
-	margin: 10px;
+	margin-bottom: 0;
+	margin-top: 20px;
 	margin-left: 0;
 
 }
@@ -119,16 +140,3 @@ header {
 	z-index: 0;
 }
 
-nav {
-	margin-top: 0px;
-	margin-bottom: 0;
-	font-size: 20px;
-	display: flex;
-	padding: 0;
-	margin: 0;
-	padding: 0px;
-	font-weight: bold;
-	height: 60px;
-	align-items: center;
-	z-index: 2;
-}
