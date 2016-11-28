@@ -22,7 +22,7 @@ figure {
 	color: white;
 	margin: 0;
 	padding: 0;
-	
+
 	background-color: #02445e;
 	padding: 10px;
 }
@@ -40,14 +40,14 @@ figcaption {
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 50px;
-	
+
 }
 article {
 	text-align: justify;
 	width: 571px;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 0;
+	padding: 20px;
 	flex-grow: 1;
 	margin-top: 20px;
 }
