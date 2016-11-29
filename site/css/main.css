@@ -1,9 +1,10 @@
 body {
-	background-color: #021422;
+	background-color: #02101d;
+	color: #02101d;
 	padding: 0;
 	margin: 0;
 	font-family: sans-serif;
-	color: #212121;
+	
 }
 
 
@@ -48,8 +49,7 @@ figure {
 	color: white;
 	margin: 0;
 	padding: 0;
-
-	background-color: #02445e;
+	background-color: #010f1c;
 	padding: 10px;
 }
 figcaption {
@@ -60,7 +60,7 @@ figcaption {
 	margin-left: auto;
 	margin-right: auto;
 	width: 95%;
-	background-color: #086682;
+	background-color: #043d5b;
 	z-index: 0;
 	
 }
@@ -96,11 +96,11 @@ h1 {
 
 a {
 	margin: 0;
-	background-color: #0a849b;
+	background-color: #056989;
 	padding: 5px;
-	color: #212121;
+	color: #010f1c;
 	flex-grow: 1;
-	transition: 0.3s;
+	transition: 0.2s;
 	height: 50px;
 	display: flex;
 	align-items: center;
@@ -119,8 +119,8 @@ a:visited {
 
 a:hover, .selected {
     text-decoration: none;
-    transition: 0.3s;
-    background-color: #12a3b4;
+    transition: 0.2s;
+    background-color: #0c97aa;
     transform: scale(1.1);
 }
 a:hover {
