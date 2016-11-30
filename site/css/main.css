@@ -6,9 +6,7 @@ body {
 	font-family: sans-serif;
 	
 }
-
-
-.main {
+#main {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -17,7 +15,12 @@ body {
 	width: 1000px;
 	height: 2000px;
 }
-
+header {
+	height: 200px;
+	width: 1000px;
+	margin: 0;
+	z-index: 0;
+}
 nav {
 	margin-top: 0px;
 	margin-bottom: 0;
@@ -31,19 +34,47 @@ nav {
 	align-items: center;
 	z-index: 2;
 }
-
-.page, .page_row {
+#page, #page_row {
 	display: flex;
-	flex-direction: column;
 	padding-bottom: 50px;
 	align-items: center;
-
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #043d5b;
+	z-index: 0;
+}
+#page {
+	flex-direction: column;
+	padding-left: 15%;
+	padding-right: 15%;
+	width: 65%;
+}
+#page_row {
+	flex-direction: row;
+	width: 85%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 .left {
 	margin-left: 20px;
 }
-.page_row {
-	flex-direction: row;
+#shadow {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #043d5b;
+	z-index: 1;
+	padding: 0;
+	width: 95%;
+}
+article {
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 0px;
+	margin-right: 20px;
+	padding-top: 0px;
+	margin-top: 20px;
+	flex-grow: 1;
 }
 figure {
 	color: white;
@@ -56,32 +87,8 @@ figcaption {
 	text-align: right;
 	font-style: italic;
 }
-.shadow, .page, .page_row {
-	margin-left: auto;
-	margin-right: auto;
-	width: 95%;
-	background-color: #043d5b;
-	z-index: 0;
-	
-}
-.shadow {
-	z-index: 1;
-}
 img {
 	width: 100%;
-}
-
-article {
-	display: flex;
-	flex-direction: column;
-	text-align: justify;
-	width: 571px;
-	padding: 0px;
-	margin-right: 20px;
-	padding-top: 0px;
-	flex-grow: 1;
-	margin-top: 20px;
-
 }
 h1 {
 	font-family: 'Oswald';
@@ -89,9 +96,7 @@ h1 {
 	margin-bottom: 0;
 	margin-top: 20px;
 	margin-left: 0;
-
 }
-
 
 
 a {
@@ -105,19 +110,14 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 }
-
 a:link {
     text-decoration: none;
-
 }
-
 a:visited {
     text-decoration: none;
 }
-
-a:hover, .selected {
+a:hover, #selected {
     text-decoration: none;
     transition: 0.2s;
     background-color: #0c97aa;
@@ -126,17 +126,11 @@ a:hover, .selected {
 a:hover {
 	z-index: 4;
 }
-.selected {
+#selected {
 	z-index: 5;
 }
 a:active {
     text-decoration: none;
 }
 
-header {
-	height: 200px;
-	width: 1000px;
-	margin: 0;
-	z-index: 0;
-}
 
