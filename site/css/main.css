@@ -37,11 +37,12 @@ nav {
 #page, #page_row {
 	display: flex;
 	padding-bottom: 50px;
-	align-items: center;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #043d5b;
+	justify-content: flex-start;
+	background-color: #04627a;
 	z-index: 0;
+	height: 2000px;
 }
 #page {
 	flex-direction: column;
@@ -55,13 +56,13 @@ nav {
 	padding-left: 5%;
 	padding-right: 5%;
 }
-.left {
-	margin-left: 20px;
+.right_article {
+	margin-right: 0;
 }
 #shadow {
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #043d5b;
+	background-color: #04627a;
 	z-index: 1;
 	padding: 0;
 	width: 95%;
@@ -74,7 +75,6 @@ article {
 	margin-right: 20px;
 	padding-top: 0px;
 	margin-top: 20px;
-	flex-grow: 1;
 }
 figure {
 	color: white;
