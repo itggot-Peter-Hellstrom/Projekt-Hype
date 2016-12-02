@@ -13,7 +13,6 @@ body {
 	margin: auto;
 	margin-top: 0;
 	width: 1000px;
-	height: 2000px;
 }
 header {
 	height: 200px;
@@ -42,7 +41,6 @@ nav {
 	justify-content: flex-start;
 	background-color: #04627a;
 	z-index: 0;
-	height: 2000px;
 }
 #page {
 	flex-direction: column;
